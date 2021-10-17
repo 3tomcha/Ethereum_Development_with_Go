@@ -1,4 +1,4 @@
-module example.com/m
+module github.com/3tomcha/Ethereum_Development_with_Go
 
 go 1.16
 
