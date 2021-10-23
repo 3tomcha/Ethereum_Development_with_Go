@@ -20,7 +20,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	privateKey, err := crypto.HexToECDSA("aa3bc6ba81aee1901dd418507fbaa83478310eedae20f7346375f1929f7eaa04")
+	privateKey, err := crypto.HexToECDSA("6f6a39c3dcc9adfa3551b6fd2990e54d628ea3518863dd8ce534c555872b463c")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -42,7 +42,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	address := common.HexToAddress("0xb1ed820f4102143ea965d8301c10610488940d46")
+	address := common.HexToAddress("0xe13cc8daaef5c8e61e91f67dda0ee83f3e1efe73")
 	instance, err := store.NewStore(address, client)
 	if err != nil {
 		log.Fatal(err)

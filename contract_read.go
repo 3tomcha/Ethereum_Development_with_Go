@@ -15,7 +15,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	address := common.HexToAddress("0xb1ed820f4102143ea965d8301c10610488940d46")
+	address := common.HexToAddress("0xe13cc8daaef5c8e61e91f67dda0ee83f3e1efe73")
 	instance, err := store.NewStore(address, client)
 	if err != nil {
 		log.Fatal(err)
